@@ -1,4 +1,4 @@
-$OutFile = "C:\Permissions.csv"
+$OutFile = "C:\Permission.csv"
 $Header = "Folder Path,IdentityReference,AccessControlType,IsInherited,InheritanceFlags,PropagationFlags"
 #Del $OutFile
 Add-Content -Value $Header -Path $OutFile 
